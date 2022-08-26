@@ -1,6 +1,5 @@
 package com.example.showrecordactivity
 
-import android.annotation.SuppressLint
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -12,7 +11,7 @@ class ShowDetailActivity : AppCompatActivity() {
     private lateinit var showDetail : TextView
     private lateinit var newRecordBtn : Button
 
-    @SuppressLint("SetTextI18n")
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_show_detail)
@@ -21,7 +20,8 @@ class ShowDetailActivity : AppCompatActivity() {
         val age = intent.getStringExtra("Age")
         val city = intent.getStringExtra("City")
         showDetail = findViewById(R.id.showDetail2)
-        showDetail.text = "\n$name\n$age\n$city"
+        val message = "\n$name\n$age\n$city"
+        showDetail.text = message
 
         newRecordBtn = findViewById(R.id.newRecordBtn)
 
