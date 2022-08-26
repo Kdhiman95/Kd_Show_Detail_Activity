@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Show Record Activity</string>
+    <string name="what_is_your_name">What is your name?</string>
+    <string name="enter_name">Enter name</string>
+    <string name="next">Next</string>
+    <string name="enter_age">Enter age</string>
+    <string name="what_is_your_age">What is your age?</string>
+    <string name="done">Done</string>
+    <string name="e_g_chandigarh">e.g. Chandigarh</string>
+    <string name="city">City:</string>
+    <string name="detials_are_nname_nage_ncity">Detials are:\nName:\nAge:\nCity:</string>
+    <string name="new_record">New Record</string>
+</resources>
